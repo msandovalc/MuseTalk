@@ -13,7 +13,7 @@ torch = { version = "2.4.1", source = "pytorch" }
 torchvision = { version = "0.19.1", source = "pytorch" }
 torchaudio = { version = "2.4.1", source = "pytorch" }
 numpy = "1.25"
-tensorflow = "2.12.0"
+tensorflow = "*"
 tensorboard = "2.12.0"
 opencv-python = "4.9.0.80"
 soundfile = "0.12.1"
