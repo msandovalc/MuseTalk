@@ -34,6 +34,7 @@ mmpose = "1.3.2"
 mmengine = "*"
 mmcv = { version = "2.2.0", source = "openmmlab" }
 mmdet = "*"
+chumpy = "^1.0"
 
 [[tool.poetry.source]]
 name = "pytorch"
