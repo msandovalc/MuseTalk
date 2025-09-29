@@ -1,0 +1,41 @@
+[project]
+name = "musetalk"
+version = "0.1.0"
+description = "Dependency management for MuseTalk and related projects"
+authors = [
+    {name = "msandovalc",email = "msandovalgm@live.com.mx"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+torch = { version = "2.4.1", source = "pytorch" }
+torchvision = { version = "0.19.1", source = "pytorch" }
+torchaudio = { version = "2.4.1", source = "pytorch" }
+diffusers = "0.30.2"
+accelerate = "0.28.0"
+numpy = "1.23.5"
+tensorflow = "2.12.0"
+tensorboard = "2.12.0"
+opencv-python = "4.9.0.80"
+soundfile = "0.12.1"
+transformers = "4.39.2"
+huggingface_hub = "0.30.2"
+librosa = "0.11.0"
+einops = "0.8.1"
+gradio = "5.24.0"
+gdown = "*"
+requests = "*"
+imageio = { version = "*", extras = ["ffmpeg"] }
+omegaconf = "*"
+ffmpeg-python = "*"
+moviepy = "*"
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
