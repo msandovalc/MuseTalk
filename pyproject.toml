@@ -30,6 +30,9 @@ imageio = { version = "*", extras = ["ffmpeg"] }
 omegaconf = "*"
 ffmpeg-python = "*"
 moviepy = "*"
+accelerate="0.33.0"
+diffusers="0.33.0"
+transformers="4.45.2"
 
 [[tool.poetry.source]]
 name = "pytorch"
