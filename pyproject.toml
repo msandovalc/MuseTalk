@@ -39,6 +39,8 @@ mmdet = "*"
 name = "pytorch"
 url = "https://download.pytorch.org/whl/cu118"
 priority = "explicit"
+
+[[tool.poetry.source]]
 name = "openmmlab"
 url = "https://download.openmmlab.com/mmcv/dist/cu121/torch2.4/index.html"
 priority = "explicit"
